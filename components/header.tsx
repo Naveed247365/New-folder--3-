@@ -25,7 +25,7 @@ export default function Header() {
           <Link href="/" className="text-2xl font-bold">
             Abdul Ghaffar & Sons
           </Link>
-          <nav className="font-semibold hidden md:block">
+          <nav className="font-semibold  hidden md:block">
             <ul className="flex space-x-4">
               {navItems.map((item) => (
                 <li key={item.name}>
